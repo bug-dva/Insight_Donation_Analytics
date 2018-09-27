@@ -51,9 +51,7 @@ For each record, make a new tuple of (recipient, zip code and calendar year), ca
    donation amount in a given percentile P 
 
 # Requirements
-numpy == 1.15.2
-
-pandas == 0.23.4
+`pip install numpy pandas`
 
 # How to run
 1. Please put itcoin.txt and pertencile.txt in the input folder
