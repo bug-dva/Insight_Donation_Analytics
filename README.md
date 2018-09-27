@@ -52,8 +52,8 @@ For each record, make a new tuple of (recipient, zip code and calendar year), ca
 
 # Requirements
 numpy == 1.15.2
+
 pandas == 0.23.4
-math
 
 # How to run
 1. Please put itcoin.txt and pertencile.txt in the input folder
