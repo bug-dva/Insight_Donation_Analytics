@@ -4,23 +4,23 @@ This is a coding challenge which I practiced for improving my data engineering s
 # Input File 
 1. itcont.txt
 
-From each record, below information should be extracted:
+   From each record, below information should be extracted:
+   
+   CMTE_ID: identifies the flier, which for our purposes is the recipient of this contribution
+   
+   NAME: name of the donor
 
-CMTE_ID: identifies the flier, which for our purposes is the recipient of this contribution
+   ZIP_CODE: zip code of the contributor (we only want the first five digits/characters)
    
-NAME: name of the donor
+   TRANSACTION_DT: date of the transaction
    
-ZIP_CODE: zip code of the contributor (we only want the first five digits/characters)
+   TRANSACTION_AMT: amount of the transaction
    
-TRANSACTION_DT: date of the transaction
-   
-TRANSACTION_AMT: amount of the transaction
-   
-OTHER_ID: a field that denotes whether contribution came from a person or an entity
+   OTHER_ID: a field that denotes whether contribution came from a person or an entity
 
 2. pertentile.txt
 
-This file holds a single value -- the percentile value (1-100) that your program will be asked to calculate. 
+   This file holds a single value -- the percentile value (1-100) that your program will be asked to calculate. 
 
 # Step
 ## 1. Import Data and Filter Invalied records
@@ -58,9 +58,8 @@ math
 # How to run
 1. Please put itcoin.txt and pertencile.txt in the input folder
 2. run
-3. The output file repeat_donor.txt will be created in the output folder
 
-```
-$ ./run.sh 
-```
+   `$ ./run.sh`
+
+3. The output file repeat_donor.txt will be created in the output folder
 
